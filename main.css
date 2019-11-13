@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background: #333;
+}
+
+.logo{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 22px;
+}
+
+.nav-links{
+    display:flex;
+    /*background-color: red;*/
+    justify-content: space-around;
+    width: 500px;
+}
+
+.nav-links a{
+    display: flex;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.container {
+    background-color: rgb(211, 211, 211);
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 1em;
+    padding-bottom: 2em;
+}
+
+.image {
+    width: 100%;
+}
+
+.InImage {
+    font-weight: bold;
+    position: absolute;
+    bottom: 30em;
+    right: 59em;
+    letter-spacing: 4px;
+    padding-left: 5em;
+    width: 300px;
+    height: 200;
+    animation-name: myanimation;
+    animation-duration: 4s;
+    /*background-color: rgb(255, 0, 0);*/
+    /*font-size: 66px;*/
+}
+
+@keyframes myanimation {
+    0% {left: 100em;}
+    25% {right:2em;}
+}
+
+
